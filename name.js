@@ -1,6 +1,11 @@
 const Name=() => {
-  const firstNames = ["Alice", "Bob", "Charlie", "David", "Eve"];
-    const lastName = ["Smith", "Johnson", "Williams", "Jones", "Brown"];
-  return firstNames[Math.floor(Math.random() * firstNames.length)] + " " + lastName[Math.floor(Math.random() * lastName.length)];
+  const first = ["Alice", "Bob", "Charlie", "David", "Eve"];
+    const last = ["Smith", "Johnson", "Williams", "Jones", "Brown"];
+  return {
+    firstName: first[Math.floor(Math.random() * first.length)],
+    lastName: last[Math.floor(Math.random() * last.length)]
+  }
 }
 console.log(Name());
+
+module.exports = Name;
