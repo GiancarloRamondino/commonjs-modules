@@ -1,3 +1,10 @@
 const fullName = require('./name.js');
+const Hobbies = require('./hobbies.js');
 
-console.log(fullName());
+function peaple() {
+    return {
+     fullName: fullName(),
+     Hobbies: Hobbies()
+    } 
+ }
+console.log(peaple());

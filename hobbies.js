@@ -1,6 +1,6 @@
-function getHobbies(hobbyOne, hobbyTwo, hobbyThree) {
+function getHobbies(hobbyOne = 'sport', hobbyTwo = 'musica', hobbyThree = 'arte') {
     return [hobbyOne, hobbyTwo, hobbyThree];
 }
-console.log(getHobbies('sport', 'gioco', 'musica'));
+console.log(getHobbies());
 
 module.exports = getHobbies;
