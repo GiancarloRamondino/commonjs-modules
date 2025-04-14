@@ -1,3 +1,3 @@
-const cognomeName = require('./name.js');
+const fullName = require('./name.js');
 
-console.log(cognomeName());
+console.log(fullName());
