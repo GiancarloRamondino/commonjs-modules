@@ -1,9 +1,7 @@
-const Name=() => {
-  const first = ["Alice", "Bob", "Charlie", "David", "Eve"];
-    const last = ["Smith", "Johnson", "Williams", "Jones", "Brown"];
+const Name=(firstName, lastName) => {
   return {
-    firstName: first[Math.floor(Math.random() * first.length)],
-    lastName: last[Math.floor(Math.random() * last.length)]
+    firstName,
+    lastName
   }
 }
 console.log(Name());

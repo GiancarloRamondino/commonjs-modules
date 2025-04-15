@@ -1,4 +1,4 @@
-function getHobbies(hobbyOne = 'sport', hobbyTwo = 'musica', hobbyThree = 'arte') {
+function getHobbies(hobbyOne, hobbyTwo, hobbyThree) {
     return [hobbyOne, hobbyTwo, hobbyThree];
 }
 console.log(getHobbies());
