@@ -7,4 +7,5 @@ function peaple() {
      Hobbies: Hobbies('videogames', 'music', 'movies'),
     } 
  }
+ 
 console.log(peaple());

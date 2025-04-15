@@ -4,6 +4,6 @@ const Name=(firstName, lastName) => {
     lastName
   }
 }
-console.log(Name());
+
 
 module.exports = Name;
